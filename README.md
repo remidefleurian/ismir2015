@@ -60,13 +60,14 @@ If you do not have `git` available, download the code from
 https://github.com/f0k/ismir2015/archive/master.zip and extract it.
 
 The experiments use the public [Jamendo dataset by Mathieu Ramona](www.mathieuramona.com/wp/data/jamendo/).
-To download and prepare it, open the cloned or extracted repository in a
-bash terminal and execute the following scripts (in this order):
+~~To download and prepare it, open the cloned or extracted repository in a~~
+~~bash terminal and execute the following scripts (in this order):~~
 ```bash
-./datasets/jamendo/audio/recreate.sh
-./datasets/jamendo/filelists/recreate.sh
-./datasets/jamendo/labels/recreate.sh
+# ./datasets/jamendo/audio/recreate.sh
+# ./datasets/jamendo/filelists/recreate.sh
+# ./datasets/jamendo/labels/recreate.sh
 ```
+**Update:** The original URL to recreate the Jamendo dataset is deprecated. The data can be downloaded [here as a .zip](https://zenodo.org/record/2585988) or [here as a .tgz](https://jobim.ofai.at/download/jamendo.tgz). Simply replace the `./datasets/jamendo` folder by the uncompressed downloaded folder.
 
 
 Experiments
