@@ -31,6 +31,11 @@ For better performance, the following Python packages are recommended:
   augmentations to be parallelized by multithreading, not only by
   multiprocessing, https://github.com/scipy/scipy/pull/3943)
 
+ **Update:** The script doesn't work with the most recent version of `pyfftw`, which returns a `ValueError: assignment destination is read-only`. To address this issue, install a previous version of the package:
+ ```bash
+pip install pyfftw==0.11.1
+ ```
+
 For Theano and Lasagne, you may need the bleeding-edge versions from github.
 In short, they can be installed with:
 ```bash
