@@ -36,6 +36,8 @@ For better performance, the following Python packages are recommended:
 pip install pyfftw==0.11.1
  ```
 
+ **Update:** To fix further compatibility issues, `.experiments/audio.py` was replaced with a more recent version available [here](https://github.com/f0k/birdclef2018/blob/master/experiments/audio.py), thanks to a suggestion by Jan Schlüter.
+
 For Theano and Lasagne, you may need the bleeding-edge versions from github.
 In short, they can be installed with:
 ```bash
